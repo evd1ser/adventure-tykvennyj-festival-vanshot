@@ -1,0 +1,55 @@
+{
+  "name": "adventure-tykvennyj-festival-vanshot",
+  "title": "Тыквенный фестиваль (ваншот) [Adventure]",
+  "description": "Адаптация ваншота от https://vk.com/wall-183909450_161",
+  "version": "1.0.0",
+  "author": "evd1ser",
+  "manifest": "https://github.com/evd1ser/adventure-tykvennyj-festival-vanshot/releases/download/latest/module.json",
+  "download": "https://github.com/evd1ser/adventure-tykvennyj-festival-vanshot/releases/download/1.0.0/ddb-importer.zip",
+  "license": "Open Game License (OGL)",
+  "url": "https://github.com/evd1ser/adventure-tykvennyj-festival-vanshot",
+  "authors": [
+    {
+      "name": "evd1ser",
+      "url": "https://evd1ser.com"
+    }
+  ],
+  "minimumCoreVersion": "0.10.0",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": 10,
+    "verified": "10.288"
+  },
+  "packs": [
+    {
+      "name": "module-adventure",
+      "label": "Тыквенный фестиваль [ваншот]",
+      "path": "./packs/tykvennyj-festival.db",
+      "entity": "Adventure",
+      "type": "Adventure",
+      "system": "dnd5e"
+    }
+  ],
+  "system": ["dnd5e"],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "verified": "2.0.1"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {
+          "minimum": 2,
+          "verified": "2.0.9"
+        }
+      }
+    ]
+  }
+}
