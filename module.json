@@ -1,25 +1,26 @@
 {
+  "id": "adventure-tykvennyj-festival-vanshot",
   "name": "adventure-tykvennyj-festival-vanshot",
+  "author": "evd1ser",
   "title": "Тыквенный фестиваль (ваншот) [Adventure]",
+  "license": "Open Game License (OGL)",
   "description": "Адаптация ваншота от https://vk.com/wall-183909450_161",
   "version": "1.0.0",
-  "author": "evd1ser",
-  "manifest": "https://github.com/evd1ser/adventure-tykvennyj-festival-vanshot/releases/download/latest/module.json",
   "download": "https://github.com/evd1ser/adventure-tykvennyj-festival-vanshot/releases/download/v1.0.0/adventure-tykvennyj-festival-vanshot.zip",
-  "license": "Open Game License (OGL)",
+  "manifest": "https://github.com/evd1ser/adventure-tykvennyj-festival-vanshot/releases/download/latest/module.json",
   "url": "https://github.com/evd1ser/adventure-tykvennyj-festival-vanshot",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": 10,
+    "verified": "10.288"
+  },
   "authors": [
     {
       "name": "evd1ser",
       "url": "https://evd1ser.com"
     }
   ],
-  "minimumCoreVersion": "0.10.0",
-  "compatibleCoreVersion": "10",
-  "compatibility": {
-    "minimum": 10,
-    "verified": "10.288"
-  },
   "packs": [
     {
       "name": "module-adventure",
@@ -30,7 +31,9 @@
       "system": "dnd5e"
     }
   ],
-  "system": ["dnd5e"],
+  "system": [
+    "dnd5e"
+  ],
   "relationships": {
     "systems": [
       {
@@ -48,5 +51,6 @@
         "compatibility": {}
       }
     ]
-  }
+  },
+  "socket": false
 }
