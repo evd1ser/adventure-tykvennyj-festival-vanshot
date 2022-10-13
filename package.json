@@ -1,0 +1,19 @@
+{
+  "name": "adventure-tykvennyj-festival-vanshot",
+  "version": "1.0.1",
+  "description": "![Обложка](https://github.com/evd1ser/adventure-tykvennyj-festival-vanshot/blob/main/assets/assets/cover.jpg?raw=true) Автор данного приключения: [Заметки упыря | Короткие приключения | D&D](https://vk.com/ngdnd)",
+  "scripts": {
+    "build": "rm -rf dist && zip -r ./adventure-tykvennyj-festival-vanshot.zip ./* && mkdir dist && mv ./adventure-tykvennyj-festival-vanshot.zip ./dist && cp -fr ./module.json ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evd1ser/adventure-tykvennyj-festival-vanshot.git"
+  },
+  "keywords": [],
+  "author": "evd1ser",
+  "license": "OGL",
+  "bugs": {
+    "url": "https://github.com/evd1ser/adventure-tykvennyj-festival-vanshot/issues"
+  },
+  "homepage": "https://github.com/evd1ser/adventure-tykvennyj-festival-vanshot#readme"
+}
